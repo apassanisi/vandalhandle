@@ -19,7 +19,7 @@ npm install vandalhandle
 ```
 ## Use
 ```javascript
-const vh = require("./index.js");
+const vh = require("vandalhandle");
 
 console.log(vh.fullName)
 // Sleve VonGrubershtein
