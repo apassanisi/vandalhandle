@@ -4,7 +4,7 @@
 ```
 <div align="center">
 
-[![npm version](https://badge.fury.io/js/vandalhandle.svg)](https://badge.fury.io/js/vandalhandle) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/vandalhandle.svg)](https://badge.fury.io/js/vandalhandle) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/APassanisi/VandalHandle) [![GitHub license](https://img.shields.io/github/license/APassanisi/VandalHandle.svg)](https://github.com/APassanisi/VandalHandle.js/blob/master/LICENSE)
 <br>
 <br>
 <h3>Simple, silly mock data.</h3><br>Updated semi-frequently.
@@ -15,30 +15,36 @@
 
 ## Installation
 ```
-npm install vandalhandle
+npm install --save vandalhandle
 ```
-## Use
+## Use and Options
 ```javascript
 const vh = require("vandalhandle");
 
+console.log(vh.firstName)
+// Sinthya
+
+console.log(vh.lastName);
+// DeSasswallop
+
 console.log(vh.fullName)
-// Sleve VonGrubershtein
+// Daschel Pootgaggle
+
+console.log(vh.streetAddress)
+// 1337 Widdershins Drive
+
+console.log(vh.city)
+// Summerspire
+
+console.log(vh.state)
+// New Mexico
+
+console.log(vh.zip)
+// 45425
+
+console.log(vh.fullAddress)
+// 186 Bumbershoot Ln.
+// Swampfall, Connecticut
+// 38009
 ```
-
-## Options
-`firstName`
-
-`lastName`
-
-`fullName`
-
-`streetAddress`
-
-`city`
-
-`state`
-
-`zip`
-
-`fullAddress`
 

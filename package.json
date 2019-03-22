@@ -1,10 +1,10 @@
 {
   "name": "vandalhandle",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A generator for silly things.",
   "main": "index.js",
   "author": "Andrew Passanisi",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/APassanisi/vandalhandle"
