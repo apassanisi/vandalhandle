@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "axios": "^0.26.0"
+  },
+  "publishConfig": {
+    "@apassanisi:registry": "https://npm.pkg.github.com"
   }
 }
