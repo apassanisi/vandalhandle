@@ -1,6 +1,6 @@
 {
   "name": "vandalhandle",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Simple mock data generation",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "Andrew Passanisi",
   "license": "MIT",
+  "homepage": "https://github.com/APassanisi/vandalhandle",
   "repository": {
     "type": "git",
     "url": "https://github.com/APassanisi/vandalhandle"
