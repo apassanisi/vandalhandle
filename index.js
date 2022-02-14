@@ -1,5 +1,6 @@
-const Name = require('./modules/name.js')
-const Address = require('./modules/address.js')
+const Name = require("./modules/name.js");
+const Address = require("./modules/address.js");
+const Avatar = require("./modules/avatar.js");
 
 module.exports = {
   firstName: Name.first,
@@ -9,5 +10,6 @@ module.exports = {
   city: Address.city,
   state: Address.state,
   zip: Address.zip,
-  fullAddress: Address.fullAddress
+  fullAddress: Address.fullAddress,
+  avatar: Avatar
 };

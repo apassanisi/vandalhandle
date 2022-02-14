@@ -7,7 +7,7 @@
 [![npm version](https://badge.fury.io/js/vandalhandle.svg)](https://badge.fury.io/js/vandalhandle) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/APassanisi/VandalHandle) [![GitHub license](https://img.shields.io/github/license/APassanisi/VandalHandle.svg)](https://github.com/APassanisi/vandalhandle/blob/master/LICENSE)
 <br>
 <br>
-<h3>Simple, silly mock data.</h3><br>Not updated frequently.
+<h3>Simple mock data generation.</h3>
 <br>
 <br>
 <br>

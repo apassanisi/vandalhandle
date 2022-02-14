@@ -3,10 +3,16 @@
   "version": "1.0.7",
   "description": "A generator for silly things.",
   "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
   "author": "Andrew Passanisi",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/APassanisi/vandalhandle"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
   }
 }

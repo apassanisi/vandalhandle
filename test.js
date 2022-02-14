@@ -1,2 +1,3 @@
 const vh = require("./index.js");
-console.log(vh.fullName + '\n' + vh.fullAddress);
+const avatar = vh.avatar
+console.log(avatar)
