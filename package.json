@@ -1,6 +1,6 @@
 {
-  "name": "@apassanisi/vandalhandle",
-  "version": "1.0.9",
+  "name": "vandalhandle",
+  "version": "1.0.10",
   "description": "Simple mock data generation",
   "main": "index.js",
   "scripts": {
