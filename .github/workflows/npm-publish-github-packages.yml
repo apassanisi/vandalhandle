@@ -30,9 +30,10 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-        run: npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-        run: npm publish --ignore-scripts
+      - run: | 
+          npm ci
+          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+          npm publish --ignore-scripts
         env:
           NPM_TOKEN: ${{ secrets.NPM_token }}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
