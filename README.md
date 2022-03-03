@@ -8,6 +8,7 @@
 <br>
 <br>
 <br>
+	<p>A simple package for generating mock data.</p>
 <br>
 <br>
 </div>
